@@ -1,7 +1,4 @@
-+++
-streamId = "locations"
-urlFormat = "{{ .slug }}"
-+++
+
 
 <html> 
 	<body> 

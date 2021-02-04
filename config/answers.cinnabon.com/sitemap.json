@@ -1,0 +1,4 @@
+{
+    "autoGen": "true",  
+    "blacklist": ["robots.txt"]
+}

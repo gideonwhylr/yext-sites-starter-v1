@@ -1,0 +1,23 @@
+{
+"pageSets":	
+    [
+		{
+			"name": "Location Pages",
+			"streamId": "cinnabon_locations",
+			"goTemplateEntityPageSet": {
+				"template": "store_pages.tmpl",
+				"urlTemplate": "store_pages_url.tmpl"
+			}
+        }, 
+        {
+            "name": "Event Pages",
+			"streamId": "cinnabon_events",
+			"goTemplateEntityPageSet": {
+				"template": "event_pages.tmpl",
+				"urlTemplate": "event_pages_url.tmpl"
+            }
+        }
+
+    ]
+    
+}
