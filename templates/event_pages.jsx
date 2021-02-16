@@ -19,7 +19,7 @@ const EventPage = ({ event }) => {
 
 export const streamId = "events";
 
-export const getPath = ({ event }) => {
+export const getPaths = ({ event }) => {
   return `events/${event.slug}`;
 };
 

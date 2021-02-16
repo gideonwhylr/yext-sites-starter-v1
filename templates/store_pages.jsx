@@ -18,7 +18,7 @@ const LocationPage = ({ location }) => {
 
 export const streamId = "stores";
 
-export const getPath = ({ location }) => {
+export const getPaths = ({ location }) => {
   return `locations/${location.slug}`;
 };
 
