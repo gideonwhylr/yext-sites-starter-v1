@@ -1,7 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import EventDocument from "../types/EventDocument";
 
-const EventPage = ({ event }) => {
+const EventPage = ({ event }: { event: EventDocument }) => {
   const { name, date, address, description } = event;
   return (
     <div>

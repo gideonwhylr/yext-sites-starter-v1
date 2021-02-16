@@ -1,7 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { GetPaths } from "yext-sites";
+import StoreDocument from "../stream-types/StoreDocument";
 
-const LocationPage = ({ location }) => {
+const LocationPage = ({ location }: { location: StoreDocument }) => {
   const { name, address, description } = location;
   return (
     <div>
@@ -18,7 +20,7 @@ const LocationPage = ({ location }) => {
 
 export const streamId = "stores";
 
-export const getPaths = ({ location }) => {
+export const getPaths: GetPaths<StoreDocument> = ({ location }) => {
   return `locations/${location.slug}`;
 };
 
