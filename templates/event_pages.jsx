@@ -19,8 +19,4 @@ const EventPage = ({ event }) => {
 
 export const streamId = "events";
 
-export const getPaths = ({ event }) => {
-  return `events/${event.slug}`;
-};
-
 export default EventPage;
